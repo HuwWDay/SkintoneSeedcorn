@@ -4,6 +4,8 @@ JGI Blogpost: [Working towards more universal skin cancer identification with AI
 
 Arxiv preprint: [Skin Cancer Machine Learning Model Tone Bias](https://arxiv.org/abs/2410.06385)
 
+[Full repo](https://github.com/HuwWDay/skin-image-analysis)
+
 Three main sections of code, order of code is intentional (pre-processing etc.)
 1) Standalone colour map classifier:
 Just basic summary statistics and my first attempt where I converted RGB to ITA and then used the modal ITA value for each image to try to classify skintone.
